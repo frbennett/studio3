@@ -1,7 +1,9 @@
 import os
 from flask import Flask, request, redirect, url_for,send_from_directory
 from werkzeug.utils import secure_filename
-
+'''
+A simple file uploading example 
+'''
 UPLOAD_FOLDER = 'uploads/'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
